@@ -99,3 +99,6 @@ def perform_gene_grouped_split(df: pd.DataFrame, test_size: float = 0.2, seed: i
     print(f"Gene Leakage Count: {len(overlap)} genes in common (Target: 0)")
 
     return train_df, test_df
+
+if __name__ == "__main__":
+    pass
